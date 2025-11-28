@@ -1,0 +1,25 @@
+{
+  "name": "projeto_pessoal_ultimo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node dist/server.js",
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "cpf": "ts-node src/cli.ts"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/helmet": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
